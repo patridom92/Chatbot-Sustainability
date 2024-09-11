@@ -57,6 +57,9 @@ class StartNode(Node):
         elif dialogue_state.intent == "TOPIC_RECYCLING":
             dialogue_state.topic = "recycling"
             return FAQNode()
+        elif dialogue_state.intent == "TOPIC_LOCAL_PRODUCTS":
+            dialogue_state.topic = "local_products"
+            return FAQNode()
         elif dialogue_state.intent == "BUSINESS_HOTEL":
             return HotelNode()
         elif dialogue_state.intent == "TOPIC_LOCHRANZA":
@@ -93,7 +96,8 @@ class FAQNode(Node):
     FAQ_RESPONSES = {
         "energy": "To conserve energy, try using LED bulbs, unplugging devices when not in use, and utilizing natural light",
         "plastics": "Reducing single-use plastics can be done by carrying reusable bags, bottles, and containers",
-        "recycling": "Proper recycling involves cleaning recyclables, separating materials, and avoiding contaminants like plastic bags"
+        "recycling": "Proper recycling involves cleaning recyclables, separating materials, and avoiding contaminants like plastic bags",
+        "local_products": "Choosing a local company over a chain can have a very positive impact on the environment. It decreases carbon emissions, pollution, and waste"
     }
 
     def say(self):
@@ -101,7 +105,7 @@ class FAQNode(Node):
         if dialogue_state.topic in self.FAQ_RESPONSES:
             return self.FAQ_RESPONSES[dialogue_state.topic]
         # Default response for general sustainability questions
-        return "To be more eco-friendly, try reducing single-use plastics, conserving energy, recycling properly, and buying from local businesses near you. Choosing a local company over a chain can have a very positive impact on the environment. It decreases carbon emissions, pollution, and waste. Is there anything else I can do for you?"
+        return "To be more eco-friendly, try reducing single-use plastics, conserving energy, recycling properly, and buying from local businesses near you. Would you like me to tell you anything more specific?"
 
     def transition(self, dialogue_state: DialogueState):
         return StartNode()  #transition back to the StartNode
