@@ -1,0 +1,21 @@
+INTENT_LOOKUP = {
+    "EVENTS": {"Are there any sustainability events?","What events are happening near me?","Can you tell me any sustainability events near me?",
+              "Tell me about sustainability events","What is going on near me?","Sustainability events.","Events, please","I want to know about sustainability events, please",
+              "Are there any sustainability events nearby?","Are there any sustainability events near me?"},
+    "LOCAL_BUSINESSES": {"Are there any local businesses near me?", "Can you give me the names of local businesses near me?",
+              "Tell me about businesses that offer local products","I would like to buy local products","Sustainable businesses to buy local products","Where can I buy local products, please?"},
+    "FAQ": {"How can I be more eco-friendly?", "Any tips for going green?", "Can you give me tips to be more sustainable"},
+    "TOPIC_ENERGY": {"What can I do to conserve energy?","What can I do to save energy?","How can I save energy?"},
+    "TOPIC_PLASTICS": {"How can I reduce single-use plastics","Ok. Tell me how I can reduce single-use plastics"},
+    "TOPIC_RECYCLING": {"How can I recycle properly?", "Tell me how I can recycle properly"},
+    "BRANDS_CLOTHING": {"Show me some sustainable clothing brands from Scotland","Tell me about sustainable clothing brands"},
+    "SKINCARE":{"Show me some sustainable skincare shops from Scotland","Tell me about sustainable skincare brands made in Scotland"},
+    "BUSINESS_HOTEL": {"Show me sustainable accomodation in Scotland.","I would like to get the name of a sustainable hotel in Scotland","The name of a sustainable hotel in Scotland","Sustainable accomodation in Scotland"},
+    "TOPIC_BURMIESTON": {},
+    "TOPIC_LOCHRANZA": {},
+    "BUSINESS_RESTAURANT": {"Show me sustainable restaurants in Scotland","I would like to get the name of a sustainable restaurant in Scotland","The name of a sustainable restaurant in Scotland"},
+    "TOPIC_MHARSANTA": {"Tell me more about Mharsanta.", "Give me more information about Mharsanta"},
+    "TOPIC_LOCH": {"Tell me more about the café.","Give me more information about Loch Arthur farm"},
+    "DENY": {"No, I'm ok", "I'm ok, thank you", "I don't need more information, thank you", "I don't need more information for now","That's all, thank you"},
+    "GOODBYE": {"Goodbye.", "See you later", "Thank you, bye","Bye","Thank you, see you later","Thanks","That's all thank you, goodbye"}
+}
