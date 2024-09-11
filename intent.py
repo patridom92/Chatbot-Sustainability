@@ -8,6 +8,7 @@ INTENT_LOOKUP = {
     "TOPIC_ENERGY": {"What can I do to conserve energy?","What can I do to save energy?","How can I save energy?"},
     "TOPIC_PLASTICS": {"How can I reduce single-use plastics","Ok. Tell me how I can reduce single-use plastics"},
     "TOPIC_RECYCLING": {"How can I recycle properly?", "Tell me how I can recycle properly"},
+    "TOPIC_LOCAL_PRODUCTS" : {"Tell me more about why buying local products is more sustainable", "Why buying local products is more sustainable?"},
     "BRANDS_CLOTHING": {"Show me some sustainable clothing brands from Scotland","Tell me about sustainable clothing brands"},
     "SKINCARE":{"Show me some sustainable skincare shops from Scotland","Tell me about sustainable skincare brands made in Scotland"},
     "BUSINESS_HOTEL": {"Show me sustainable accomodation in Scotland.","I would like to get the name of a sustainable hotel in Scotland","The name of a sustainable hotel in Scotland","Sustainable accomodation in Scotland"},
